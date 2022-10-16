@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <title>Bootstrap</title>
+    <!--style-->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+      h1 {
+        font-family: "Montserrat";
+        text-align: center;
+        color: rgb(0, 0, 0);
+        vertical-align: center;
+        text-align: center;
+      }
+      h2 {
+        font-family: "Montserrat";
+        text-align: center;
+        color: rgb(0, 0, 0);
+        vertical-align: center;
+        text-align: center;
+    }
+    h4 {
+        font-family: "Montserrat";
+        text-align: center;
+        color: rgb(252, 252, 252);
+        vertical-align: center;
+        text-align: center;
+    }
+      h5 {
+        font-family: "Open sans";
+        text-align: center;
+        color: rgb(117, 117, 117);
+        vertical-align: center;
+        text-align: center;
+      }
+      h3 {
+        font-family: "Open Sans";
+        text-align: center;
+        color: rgb(117, 117, 117);
+        vertical-align: center;
+        text-align: center;
+      }
+      .navbar-brand {
+        font-family: "Montserrat";
+        color: rgb(0, 0, 0);
+      }
+      .navbar {
+        background: #000000;
+        font-family: "Montserrat";
+      }
+      .btn {
+        background: #444444;
+        border: transparent;
+        color: rgb(251, 248, 248);
+        text-align: center;
+        align-items: center;
+      }
+      .btn:hover {
+        background: rgb(47, 47, 46);
+        transition: 0.9s;
+        color: black;
+        border: transparent;
+      }
+      .btn-primary {
+        font-family: "Montserrat";
+      }
+      .card-body {
+        font-family: "Open Sans";
+      }
+      body {
+        background-image: url(https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?w=1800&t=st=1665837163~exp=1665837763~hmac=7f89b4bdb759db3e43242ef9e5b735033ea7c26b14c0961cf6f05d0e3b971324);
+        background-repeat: vertical;
+        background-size: 140% auto;
+        width: 100%;
+        height: 100%;
+      }
+      .nav-link {
+        color: rgb(109, 108, 108);
+      }
+      /* .navbar-item>a:hover{
+            background-color: black;
+        } */
+      footer {
+        background: #040404;
+        color: white;
+        font-family: "Montserrat";
+      }
+      .section-class {
+        text-align: left;
+      }
+      .box1 {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+      }
+      .card-body {
+        background-color: #fdfdfd;
+      }
+      .carousel-inner {
+        width: 700px;
+        height: 600px;
+      }
+      .clear {
+    clear: both;
+}
+    </style>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">MND</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Works.html">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Shop.html">Shop</a>
+            </li>
+          </ul>
+
+          <div class="mx-auto" style="width: 200px"></div>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <br />
+    <br />
+    <!--heading-->
+    <h1>
+      MND is a graphic designer, brand designer, and a Photographer. 
+    She build meaningful brands through design and pictures.
+    </h1>
+    <br />
+    <br />
+    <!--Pictures-->
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <img src="https://i.pinimg.com/564x/0d/97/0c/0d970c105af5bc007b25539dafdaa3ce.jpg" alt="Logo" />
+        </div>
+        <div class="col">
+          <img src="https://i.pinimg.com/564x/01/17/10/0117104261852ae1f5f09756b3b0081c.jpg" alt="Logo" />
+        </div>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <!--carousel -->
+        <h5>photos that <strong>EYE</strong> witnessed.</h5>
+            <br>
+        <center>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://i.pinimg.com/564x/d0/1f/67/d01f67f4545f4e362413ca009613ade4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.pinimg.com/564x/99/e1/bc/99e1bcaf4d20080288fec308fec96708.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.pinimg.com/564x/ab/ea/fb/abeafb8d9471f19a7a3c63d843608128.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.pinimg.com/564x/13/b7/75/13b775eb762246ddd3806011436ea335.jpg" class="d-block w-100" alt="...">
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button> 
+          </div>
+          <!--Pictures-->
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <img src="https://i.pinimg.com/564x/e1/ea/60/e1ea60720969a89f6cb13d446ad8d902.jpg" alt="Graphic Ads" width="417" height="417"/>
+              </div>
+              <div class="col">
+                <img src="https://i.pinimg.com/564x/4e/8b/d3/4e8bd3742ec97b9172867a9608fa95a0.jpg" alt="Graphic Ads" width="417" height="417"/>
+              </div>
+        </center>
+          <br>
+          <hr>
+          <br>
+          <br>
+          <br>
+          <center>
+            <!--Services text-->
+            <h2>Services:</h2>
+            <br>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col-sm-5 col-md-6">Brand Identity</div>
+                  <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">Packaging</div>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-sm-6 col-md-5 col-lg-6">
+                    Illustration
+                  </div>
+                  <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">Print</div>
+                </div>
+              </div>
+          </center>
+          <br>
+          <br>
+          <br>
+        </div><br>
+    </div><br>
+    <!-- Footer -->
+    <footer class="bg-gray-600 text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h4 class="text-uppercase">MND</h4>
+              <hr width="90%" 
+              size="5" 
+              align="center" 
+              color="fff" noshade>    
+      
+              <p>
+                +63 906 636 3166
+              </br>
+                workwithme@MND.co
+              </p>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h4 class="text-uppercase">FOLLOW ME</h4>   
+              <hr width="90%" 
+        size="5" 
+        align="center" 
+        color="fff" noshade>         
+            
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="facebook.com/mnicoledomingo" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="twitter.com" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="google.com" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="instagram.com/mndmng" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="linkedin.com" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+            </div>
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Form -->
+          <section class="">
+            <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Join our newsletter to receive tips, resources, and updates </strong>
+                  </p>
+                </div>
+                <!--Grid column-->
+                <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example29" class="form-control" />
+                    <label class="form-label" for="form5Example29">Email address</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-auto">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Subscribe
+                  </button>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </form>
+          </section>
+          <!-- Section: Form -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center pt-2" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
